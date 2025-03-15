@@ -9,7 +9,7 @@
 
     &--primary{
         color: variables.$textColor;
-        background-color: variables.$purple;
+        background-color: variables.$red2;
         text-decoration: none;
     }
 
@@ -23,4 +23,8 @@
         display: flex;
         align-items: center;
     }
+}
+
+.button:hover{
+    transform: scale(1.1);
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EBAC Tech Talks</title>
+    <title>BARROS FEST</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,34 +16,35 @@
   <body>
     <header class="hero">
       <div class="container">
-        <img class="hero__logo" src="./images/images/ebac_logo.svg" alt="" />
+        <img class="hero__logo" src="./images/images/background.jpg" alt="" />
         <p class="hero__text" style="color: #fff">
-          O maior evento de tecnologia do Brasil começa em <span style="color: #fff;" id="contador"></span>
+          Não perca! Você está mais do que convidado! Começa em:
+          <span style="color: #fff" id="contador"></span>
         </p>
         <div class="infos-bar">
           <ul class="infos-bar__infos">
             <li class="infos-bar__infos-item">
-              <b>Localização</b><br />
-              Allianz Parque - Barra Funda - São Paulo
+              <b style="position: relative; left: 100px;">Localização</b><br />
+              Morro dos Macacos - Vila Isabel - RJ
             </li>
             <li class="infos-bar__infos-item">
-              <b>Preço</b><br />
-              A partir de R$ 120,00
+              <b style="position: relative; left: 25px;">Entrada</b><br />
+              Entranda franca
             </li>
             <li class="infos-bar__infos-item">
-              <b>Quando</b><br />
-              12/12/2025 às 19h
+              <b style="position: relative; left: 40px;">Quando</b><br />
+              01/04/2025 às 20h
             </li>
           </ul>
-          <a href="#" class="button button--primary"> Garanta sua vaga </a>
+          <a href="#" class="button button--primary"> Confirme presença</a>
         </div>
       </div>
     </header>
 
-    <section class="event event--frontend" >
-      <div class="container" data-aos="fade-right">
+    <section class="event event--frontend">
+      <div class="container" data-aos="fade-right" data-aos-duration="3000">
         <div class="event__details">
-          <h2 class="event__details__title">Front-end</h2>
+          <h2 class="event__details__title">Diversão</h2>
           <p class="event__details__description">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quam
             asperiores facilis harum numquam velit maiores expedita vitae fugiat
@@ -51,14 +52,23 @@
             quasi nam hic?
           </p>
         </div>
-        <img class="event__image" src="./images/images/frontend.png" alt="frontend" />
+        <img
+          class="event__image"
+          src="./images/images/diversao.jpg"
+          alt="diversao"
+        />
       </div>
     </section>
 
-    <section class="event event--ux-ui event--image-left" >
-      <div class="container" data-aos="fade-left">
+    <section class="event event--ux-ui event--image-left">
+      <div
+        class="container"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000"
+      >
         <div class="event__details">
-          <h2 class="event__details__title">UI/UX</h2>
+          <h2 class="event__details__title">DJ</h2>
           <p class="event__details__description">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quam
             asperiores facilis harum numquam velit maiores expedita vitae fugiat
@@ -66,14 +76,19 @@
             quasi nam hic?
           </p>
         </div>
-        <img class="event__image" src="./images/images/frontend.png" alt="frontend" />
+        <img class="event__image" src="./images/images/dj.jpg" alt="dj" />
       </div>
     </section>
 
     <section class="event event--data-science">
-      <div class="container" data-aos="fade-right">
+      <div
+        class="container"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
         <div class="event__details">
-          <h2 class="event__details__title">Data Science</h2>
+          <h2 class="event__details__title">Drinks</h2>
           <p class="event__details__description">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quam
             asperiores facilis harum numquam velit maiores expedita vitae fugiat
@@ -81,14 +96,23 @@
             quasi nam hic?
           </p>
         </div>
-        <img class="event__image" src="./images/images/frontend.png" alt="frontend" />
+        <img
+          class="event__image"
+          src="./images/images/drinks.jpg"
+          alt="drinks"
+        />
       </div>
     </section>
 
     <section class="event event--backend event--image-left">
-      <div class="container" data-aos="fade-left">
+      <div
+        class="container"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         <div class="event__details">
-          <h2 class="event__details__title">Back-End</h2>
+          <h2 class="event__details__title">Churrasco</h2>
           <p class="event__details__description">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quam
             asperiores facilis harum numquam velit maiores expedita vitae fugiat
@@ -96,13 +120,15 @@
             quasi nam hic?
           </p>
         </div>
-        <img class="event__image" src="./images/images/frontend.png" alt="frontend" />
+        <img
+          class="event__image"
+          src="./images/images/churrasco.jpg"
+          alt="frontend"
+        />
       </div>
     </section>
 
-    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
-
   </body>
 </html>
